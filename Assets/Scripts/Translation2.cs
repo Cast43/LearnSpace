@@ -27,7 +27,7 @@ public class Translation2 : MonoBehaviour
     }
     void Update()
     {
-        timer += Time.fixedDeltaTime * (2 * Mathf.PI / daoStar.orbitalPeriod);
+        timer += Time.deltaTime * (2 * Mathf.PI / daoStar.orbitalPeriod);
         Translate();
 
         if (draw == false)

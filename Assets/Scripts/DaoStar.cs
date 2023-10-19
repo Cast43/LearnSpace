@@ -27,6 +27,9 @@ public class DaoStar : MonoBehaviour
     public float originalDrawTime;
     public float originalDrawTimeDestroy;
 
+    [TextArea(5,10)]
+    public string infoPlanet;
+
     void Awake()
     {
         drawTime = ((2 * Mathf.PI * aphelio) / orbitalPeriod);

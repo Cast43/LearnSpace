@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class SimulatorManager : MonoBehaviour
@@ -12,24 +13,29 @@ public class SimulatorManager : MonoBehaviour
     public float starsSizes;
     public float orbitsVelocity;
     public float orbitsProportion;
+    public float timer = 0;
+    public TMP_Text TXTtime;
+
+    public class Calendar
+    {
+        public int year = 0;
+        public int day = 0;
+        public int hours = 0;
+    }
+
     void Start()
     {
-        ChangeAllOrbitProportion(starsSizes);
-        ChangeAllSizes(orbitsVelocity);
-        ChangeAllSpeed(orbitsProportion);
+        ChangeAllOrbitProportion(orbitsProportion);
+        ChangeAllSizes(starsSizes);
+        ChangeAllSpeed(orbitsVelocity);
     }
 
     void Update()
     {
-        GetKeyPress();
-        if (Input.GetKeyDown("o"))
-        {
-            selectedPlanet = null;
-            camControll.cameraM.transform.parent = null;
-            camControll.viewType = CameraControll.ViewAspect.FreeAspect;
-            camControll.MovePoint(camControll.originalPos);
-            camControll.SetOrthographicSize(camControll.originalOrthographicSize);
-        }
+
+        timer += Time.deltaTime * orbitsVelocity;
+        DisplayTime();
+        // GetKeyPress();
     }
     public void ChangeAllSizes(float proportion)
     {
@@ -40,6 +46,7 @@ public class SimulatorManager : MonoBehaviour
     }
     public void ChangeAllSpeed(float speed)
     {
+        orbitsVelocity = speed;
         for (int i = 0; i < managerStars.planets.Count; i++)
         {
             managerStars.ChangeOrbitSpeed(managerStars.planets[i], speed);
@@ -51,6 +58,20 @@ public class SimulatorManager : MonoBehaviour
         {
             managerStars.ChangeOrbitProportion(managerStars.planets[i], proportion);
         }
+    }
+    public void ChangeAllLines(float proportion)
+    {
+        for (int i = 0; i < managerStars.planets.Count; i++)
+        {
+            managerStars.ChangeLineSize(managerStars.planets[i], proportion);
+        }
+    }
+    void DisplayTime()
+    {
+        int minutes = Mathf.FloorToInt(timer / 60.0f);
+        int seconds = Mathf.FloorToInt(timer - minutes * 60);
+        // TXTtime.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        TXTtime.text = timer.ToString("0" + " Days");
     }
 
 
@@ -85,7 +106,7 @@ public class SimulatorManager : MonoBehaviour
                 break;
         }
     }
-    void PressInputPlanet(int planetIndex)
+    public void PressInputPlanet(int planetIndex)
     {
         selectedPlanet = managerStars.planets[planetIndex];
         camControll.selectedPlanet = selectedPlanet;
@@ -110,5 +131,14 @@ public class SimulatorManager : MonoBehaviour
             actualPlanet = selectedPlanet;
             return;
         }
+    }
+    public void FreeAspect()
+    {
+        selectedPlanet = null;
+        camControll.cameraM.transform.parent = null;
+        camControll.resetCamera = true;
+        // camControll.MovePoint(camControll.originalPos);
+        camControll.viewType = CameraControll.ViewAspect.FreeAspect;
+        camControll.SetOrthographicSize(camControll.originalOrthographicSize);
     }
 }

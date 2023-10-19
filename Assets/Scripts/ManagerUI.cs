@@ -1,37 +1,77 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class ManagerUI : MonoBehaviour
 {
-    public ManagerStars managerStars;
+    public bool showInfo = false;
+    public bool showConf = false;
+    public SimulatorManager MngSimulator;
+    public GameObject infoHUD;
+    public GameObject configHUD;
+    public GameObject ButtonsPanels;
+    public TMP_Text TitlePlanet;
+    public TMP_Text infoPlanet;
+    void Start()
+    {
+
+    }
     public void ChangeAllSizes(Slider slider)
     {
-        for (int i = 0; i < managerStars.planets.Count; i++)
-        {
-            managerStars.ChangePlanetSize(managerStars.planets[i], slider.value);
-        }
+        MngSimulator.ChangeAllSizes(slider.value);
     }
     public void ChangeAllSpeed(Slider slider)
     {
-        for (int i = 0; i < managerStars.planets.Count; i++)
-        {
-            managerStars.ChangeOrbitSpeed(managerStars.planets[i], slider.value);
-        }
+        MngSimulator.ChangeAllSpeed(slider.value);
     }
     public void ChangeAllOrbitProportion(Slider slider)
     {
-        for (int i = 0; i < managerStars.planets.Count; i++)
-        {
-            managerStars.ChangeOrbitProportion(managerStars.planets[i], slider.value);
-        }
+        MngSimulator.ChangeAllOrbitProportion(slider.value);
     }
     public void ChangeAllLines(Slider slider)
     {
-        for (int i = 0; i < managerStars.planets.Count; i++)
+        MngSimulator.ChangeAllLines(slider.value);
+    }
+    public void ToggleHUD(int hud)
+    {
+        if (hud == 2)
         {
-            managerStars.ChangeLineSize(managerStars.planets[i], slider.value);
+            configHUD.GetComponent<Animator>().SetBool("Show", false);
+            infoHUD.GetComponent<Animator>().SetBool("Show", true);
+            ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
+            showInfo = true;
+            showConf = false;
         }
+        if (hud == 1)
+        {
+            if (showConf == true)
+            {
+                HideAll();
+            }
+            else
+            {
+                infoHUD.GetComponent<Animator>().SetBool("Show", false);
+                configHUD.GetComponent<Animator>().SetBool("Show", true);
+                ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
+                showConf = true;
+                showInfo = false;
+            }
+        }
+    }
+
+    public void HideAll()
+    {
+        infoHUD.GetComponent<Animator>().SetBool("Show", false);
+        configHUD.GetComponent<Animator>().SetBool("Show", false);
+        ButtonsPanels.GetComponent<Animator>().SetBool("Show", false);
+        showInfo = false;
+        showConf = false;
+    }
+    public void ChangeInfo(DaoStar planet)
+    {
+        TitlePlanet.text = planet.name;
+        infoPlanet.text = planet.infoPlanet;
     }
 }
