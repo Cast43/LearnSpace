@@ -11,7 +11,6 @@ public class DaoStar : MonoBehaviour
     public float eccentricity;
     public float aphelio;
     public float Yoffset;
-    public float rotationSpeed;
     public float axisToRotate;
     public float drawTime;
     public float drawTimeDestroy;
@@ -22,7 +21,6 @@ public class DaoStar : MonoBehaviour
     public float originalEccentricity;
     public float originalAphelio;
     public float originalYoffset;
-    public float originalRotationSpeed;
     public float originalAxisToRotate;
     public float originalDrawTime;
     public float originalDrawTimeDestroy;
@@ -40,7 +38,6 @@ public class DaoStar : MonoBehaviour
         originalEccentricity = eccentricity;
         originalAphelio = aphelio;
         originalYoffset = Yoffset;
-        originalRotationSpeed = rotationSpeed;
         originalAxisToRotate = axisToRotate;
         originalDrawTime = drawTime;
         originalDrawTimeDestroy = drawTimeDestroy;

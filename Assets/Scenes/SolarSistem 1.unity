@@ -242,6 +242,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &44281967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,6 +930,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 4878998460874860447}
           m_ObjectArgumentAssemblyTypeName: DaoStar, Assembly-CSharp
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1601,6 +1625,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &377953858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2121,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: HideAll
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2632,6 +2680,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &748622980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2822,6 +2882,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 4182879555610038700}
           m_ObjectArgumentAssemblyTypeName: DaoStar, Assembly-CSharp
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3208,7 +3280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSlow: 150
-  zoomSlow: 10
+  zoomSlow: 5
   originalOrthographicSize: 0
   speedTransit: 0.1
   resetCamera: 0
@@ -3334,6 +3406,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 7568472841889299596}
           m_ObjectArgumentAssemblyTypeName: DaoStar, Assembly-CSharp
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3646,6 +3730,16 @@ MonoBehaviour:
   MngSimulator: {fileID: 568002547}
   infoHUD: {fileID: 309290605}
   configHUD: {fileID: 63502901}
+  colorsHud:
+  - {r: 0.4745098, g: 0.4862745, b: 1, a: 1}
+  - {r: 0.85098046, g: 0.9058824, b: 0.92549026, a: 1}
+  - {r: 0.9960785, g: 0.79215693, b: 0.6117647, a: 1}
+  - {r: 0.6509804, g: 0.9058824, b: 0.94117653, a: 1}
+  - {r: 0.9686275, g: 0.58431375, b: 0.58431375, a: 1}
+  - {r: 0.9960785, g: 0.8588236, b: 0.7411765, a: 1}
+  - {r: 0.9921569, g: 0.7254902, b: 0.49411768, a: 1}
+  - {r: 0.70980394, g: 0.8588236, b: 0.9921569, a: 1}
+  - {r: 0.41960788, g: 0.85098046, b: 0.9058824, a: 1}
   ButtonsPanels: {fileID: 176327368}
   TitlePlanet: {fileID: 2009891383}
   infoPlanet: {fileID: 370984830}
@@ -4220,6 +4314,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1800023299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4591,6 +4697,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 6518462327446523234}
           m_ObjectArgumentAssemblyTypeName: DaoStar, Assembly-CSharp
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5260,6 +5378,7 @@ GameObject:
   - component: {fileID: 6353123651533255664}
   - component: {fileID: 6353123651533255665}
   - component: {fileID: 340941380}
+  - component: {fileID: 6353123651533255666}
   m_Layer: 0
   m_Name: MoonEarth
   m_TagString: Untagged
@@ -50653,7 +50772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1380482671924194}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: -1.72
 --- !u!114 &1075034881924854705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50673,7 +50792,6 @@ MonoBehaviour:
   eccentricity: 0.047
   aphelio: 3001.4
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -50683,7 +50801,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -50842,7 +50959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1782946047181360}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 140.76
 --- !u!114 &2366119673212740873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50862,7 +50979,6 @@ MonoBehaviour:
   eccentricity: 0.206
   aphelio: 69.8
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -50872,7 +50988,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51025,7 +51140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1741346437436631}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: -583.25
 --- !u!114 &4182879555610038700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51045,7 +51160,6 @@ MonoBehaviour:
   eccentricity: 0.007
   aphelio: 108.9
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51055,7 +51169,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51098,7 +51211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1982612157385253}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 2.39
 --- !u!114 &4878998460874860447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51118,7 +51231,6 @@ MonoBehaviour:
   eccentricity: 0.017
   aphelio: 152.1
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51128,7 +51240,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51285,7 +51396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1004309953378796}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 1.61
 --- !u!114 &6180789849184118779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51305,7 +51416,6 @@ MonoBehaviour:
   eccentricity: 0.01
   aphelio: 4558.9
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51315,7 +51425,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51363,7 +51472,6 @@ MonoBehaviour:
   eccentricity: 0.055
   aphelio: 20.3
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51373,11 +51481,25 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
   infoPlanet: 
+--- !u!114 &6353123651533255666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408581391031481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576c1770e3e021049a5106308bbb3c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateObject: {fileID: 1408581391031481}
+  rotateTo: {x: 0, y: 0, z: 0}
+  rotatonSpeed: 655.7
 --- !u!135 &6518462327446523230
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51520,7 +51642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1739387686251517}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 0.99
 --- !u!114 &6518462327446523234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51540,7 +51662,6 @@ MonoBehaviour:
   eccentricity: 0.049
   aphelio: 816.4
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51550,7 +51671,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51703,7 +51823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1299527164818632}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 2.46
 --- !u!114 &6789804957346072521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51723,7 +51843,6 @@ MonoBehaviour:
   eccentricity: 0.094
   aphelio: 249.3
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51733,7 +51852,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
@@ -51896,7 +52014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1103792972190248}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: 1
+  rotatonSpeed: 1.07
 --- !u!114 &7568472841889299596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51916,7 +52034,6 @@ MonoBehaviour:
   eccentricity: 0.052
   aphelio: 1506.5
   Yoffset: 0
-  rotationSpeed: 0
   axisToRotate: 0
   drawTime: 0
   drawTimeDestroy: 0
@@ -51926,7 +52043,6 @@ MonoBehaviour:
   originalEccentricity: 0
   originalAphelio: 0
   originalYoffset: 0
-  originalRotationSpeed: 0
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0

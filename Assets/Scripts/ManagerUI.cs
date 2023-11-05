@@ -11,6 +11,7 @@ public class ManagerUI : MonoBehaviour
     public SimulatorManager MngSimulator;
     public GameObject infoHUD;
     public GameObject configHUD;
+    public Color[] colorsHud;
     public GameObject ButtonsPanels;
     public TMP_Text TitlePlanet;
     public TMP_Text infoPlanet;
@@ -68,6 +69,10 @@ public class ManagerUI : MonoBehaviour
         ButtonsPanels.GetComponent<Animator>().SetBool("Show", false);
         showInfo = false;
         showConf = false;
+    }
+    public void ChangeColor(int color)
+    {
+        infoHUD.GetComponent<Image>().color = colorsHud[color];
     }
     public void ChangeInfo(DaoStar planet)
     {
