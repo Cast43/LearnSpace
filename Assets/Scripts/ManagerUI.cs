@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class ManagerUI : MonoBehaviour
 {
-    public bool showInfo = false;
-    public bool showConf = false;
+    public bool showHud = false;
+    public int actualHud = 0;
+    public int actualButton = 0;
     public SimulatorManager MngSimulator;
-    public GameObject infoHUD;
-    public GameObject configHUD;
+    public GameObject[] Huds;
     public Color[] colorsHud;
     public GameObject ButtonsPanels;
     public TMP_Text TitlePlanet;
@@ -35,44 +35,53 @@ public class ManagerUI : MonoBehaviour
     {
         MngSimulator.ChangeAllLines(slider.value);
     }
-    public void ToggleHUD(int hud)
+
+
+    public void ChangeHud(int hud)
     {
-        if (hud == 2)
+        actualHud = hud;
+    }
+    public void ToggleHUD(int clickButton)
+    {
+        if (actualButton == clickButton)
         {
-            configHUD.GetComponent<Animator>().SetBool("Show", false);
-            infoHUD.GetComponent<Animator>().SetBool("Show", true);
-            ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
-            showInfo = true;
-            showConf = false;
-        }
-        if (hud == 1)
-        {
-            if (showConf == true)
+            actualButton = clickButton;
+            if (!showHud)
             {
                 HideAll();
+                Huds[actualHud].GetComponent<Animator>().SetBool("Show", true);
+                ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
+                showHud = true;
+                return;
             }
             else
             {
-                infoHUD.GetComponent<Animator>().SetBool("Show", false);
-                configHUD.GetComponent<Animator>().SetBool("Show", true);
-                ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
-                showConf = true;
-                showInfo = false;
+                HideAll();
+                return;
             }
         }
+        else
+        {
+            actualButton = clickButton;
+            HideAll();
+            Huds[actualHud].GetComponent<Animator>().SetBool("Show", true);
+            ButtonsPanels.GetComponent<Animator>().SetBool("Show", true);
+            showHud = true;
+            return;
+        }
     }
-
     public void HideAll()
     {
-        infoHUD.GetComponent<Animator>().SetBool("Show", false);
-        configHUD.GetComponent<Animator>().SetBool("Show", false);
+        for (int i = 0; i < Huds.Length; i++)
+        {
+            Huds[i].GetComponent<Animator>().SetBool("Show", false);
+        }
         ButtonsPanels.GetComponent<Animator>().SetBool("Show", false);
-        showInfo = false;
-        showConf = false;
+        showHud = false;
     }
     public void ChangeColor(int color)
     {
-        infoHUD.GetComponent<Image>().color = colorsHud[color];
+        Huds[actualHud].GetComponent<Image>().color = colorsHud[color];
     }
     public void ChangeInfo(DaoStar planet)
     {

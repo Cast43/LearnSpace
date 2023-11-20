@@ -123,6 +123,144 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10932478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10932479}
+  - component: {fileID: 10932481}
+  - component: {fileID: 10932480}
+  m_Layer: 5
+  m_Name: TextBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &10932479
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10932478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 509065518}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.014160449}
+  m_AnchorMax: {x: 1, y: 0.87500006}
+  m_AnchoredPosition: {x: 0, y: 0.46881104}
+  m_SizeDelta: {x: -14.3004, y: 0.93769836}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &10932480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10932478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Todos os dados e fontes foram retirados do site da NASA; os icones foram
+    formecidos pelo site FreePik; os modelos dos planetas foram retirados da Asset
+    Store da unity feito pelo Glitch Squirrel.\nEste projeto teve como supervisor
+    o professor Andr\xE9 Kawamoto e desenvolvido o aluno Caio Ducati."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 8
+  m_fontSizeMax: 15
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &10932481
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10932478}
+  m_CullTransparentMesh: 1
 --- !u!1 &44281964
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,10 +295,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.638}
-  m_AnchorMax: {x: 0.92, y: 0.71143687}
-  m_AnchoredPosition: {x: 0, y: 0.049987793}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.71588063}
+  m_AnchorMax: {x: 0.92, y: 0.7825563}
+  m_AnchoredPosition: {x: 0, y: 0.1000061}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44281966
 MonoBehaviour:
@@ -206,9 +344,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568002547}
-        m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
-        m_MethodName: PressInputPlanet
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -218,14 +356,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
+      - m_Target: {fileID: 568002547}
+        m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
+        m_MethodName: PressInputPlanet
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -245,6 +383,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -326,6 +476,7 @@ RectTransform:
   - {fileID: 523925925}
   - {fileID: 713045646}
   - {fileID: 354271533}
+  - {fileID: 297882169}
   m_Father: {fileID: 179365391}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -558,7 +709,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1756709282}
+  - {fileID: 1368300132}
   - {fileID: 604181806}
   - {fileID: 44281965}
   - {fileID: 769801904}
@@ -568,9 +719,10 @@ RectTransform:
   - {fileID: 1222545331}
   - {fileID: 748622978}
   - {fileID: 377953856}
+  - {fileID: 1756709282}
   - {fileID: 1286510403}
   m_Father: {fileID: 179365391}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
@@ -729,10 +881,11 @@ RectTransform:
   m_Children:
   - {fileID: 309290606}
   - {fileID: 63502902}
+  - {fileID: 509065518}
   - {fileID: 176327369}
   - {fileID: 619599676}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -849,10 +1002,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.48000002}
-  m_AnchorMax: {x: 0.92, y: 0.5535534}
-  m_AnchoredPosition: {x: 0, y: 0.34998703}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.5577781}
+  m_AnchorMax: {x: 0.92, y: 0.6246657}
+  m_AnchoredPosition: {x: 0, y: 0.39998245}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241000209
 MonoBehaviour:
@@ -898,21 +1051,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568002547}
-        m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
-        m_MethodName: PressInputPlanet
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
+      - m_Target: {fileID: 568002547}
+        m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
+        m_MethodName: PressInputPlanet
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -937,6 +1090,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -983,6 +1148,144 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241000207}
+  m_CullTransparentMesh: 1
+--- !u!1 &297882168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297882169}
+  - component: {fileID: 297882171}
+  - component: {fileID: 297882170}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &297882169
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297882168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 63502902}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.6523875}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.0012969971, y: -85.938}
+  m_SizeDelta: {x: -11.4997, y: 62.255}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &297882170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297882168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Neste softwre temos um modelo do sistema solar, o qual tem uma finalidade
+    educativa nas no\xE7\xF5es de astrologia.\nNo software \xE9 poss\xEDvel vizualizar
+    as orbitas dos planetas e se movimentar no sistema solar, al\xE9m de uma vizualiza\xE7\xE3o
+    mais pr\xF3xima dos planetas"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 8
+  m_fontSizeMax: 15
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &297882171
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297882168}
   m_CullTransparentMesh: 1
 --- !u!1 &309290605
 GameObject:
@@ -1136,8 +1439,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.6523875}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 32.683426}
-  m_SizeDelta: {x: -14.3004, y: -66.8124}
+  m_AnchoredPosition: {x: -0.0012969971, y: 48.800003}
+  m_SizeDelta: {x: -0.0025787, y: -105.5834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354271534
 MonoBehaviour:
@@ -1159,17 +1462,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'model made for represent the solar system '
+  m_text: 'Modelo do sistema solar '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd0b070fadbd63c459523ba0f3541f3c, type: 2}
+  m_sharedMaterial: {fileID: 6795299328143738384, guid: dd0b070fadbd63c459523ba0f3541f3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1186,15 +1489,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.2
+  m_fontSize: 17
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 30
+  m_fontSizeMin: 12
+  m_fontSizeMax: 17
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1540,10 +1843,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.08800001}
-  m_AnchorMax: {x: 0.92, y: 0.16133007}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.39996338}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.1657659}
+  m_AnchorMax: {x: 0.92, y: 0.23244378}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -0.3499756}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377953857
 MonoBehaviour:
@@ -1589,6 +1892,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -1597,18 +1912,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 7
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1628,6 +1931,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1827,6 +2142,106 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &509065517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509065518}
+  - component: {fileID: 509065521}
+  - component: {fileID: 509065520}
+  - component: {fileID: 509065519}
+  m_Layer: 5
+  m_Name: CreditPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &509065518
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509065517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1217086403}
+  - {fileID: 10932479}
+  - {fileID: 1374648848}
+  m_Father: {fileID: 179365391}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 102.87134, y: 0}
+  m_SizeDelta: {x: 205.7526, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &509065519
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509065517}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2105ab21b1e3b354ab9dd13fb7b2973c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &509065520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509065517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4745098, g: 0.4862745, b: 1, a: 0.8509804}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.6
+--- !u!222 &509065521
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509065517}
+  m_CullTransparentMesh: 1
 --- !u!1 &523925924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,10 +2471,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.638}
-  m_AnchorMax: {x: 0.92, y: 0.71143687}
-  m_AnchoredPosition: {x: -0.0000009536743, y: 36}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.7958876}
+  m_AnchorMax: {x: 0.92, y: 0.8624438}
+  m_AnchoredPosition: {x: -0.0000009536743, y: 0.049987793}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604181807
 MonoBehaviour:
@@ -2211,7 +2626,7 @@ RectTransform:
   m_Children:
   - {fileID: 374400163}
   m_Father: {fileID: 179365391}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2595,10 +3010,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.16566014}
-  m_AnchorMax: {x: 0.9466438, y: 0.23888345}
-  m_AnchoredPosition: {x: -0.5, y: -0.049987793}
-  m_SizeDelta: {x: 2.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.24344377}
+  m_AnchorMax: {x: 0.92, y: 0.31}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748622979
 MonoBehaviour:
@@ -2644,6 +3059,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -2652,18 +3079,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 6
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2683,6 +3098,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2801,10 +3228,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.56010675}
-  m_AnchorMax: {x: 0.92, y: 0.63343686}
-  m_AnchoredPosition: {x: 0, y: -0.3000183}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.638}
+  m_AnchorMax: {x: 0.92, y: 0.7024438}
+  m_AnchoredPosition: {x: 0, y: 0.24997711}
+  m_SizeDelta: {x: 3.220398, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769801905
 MonoBehaviour:
@@ -2850,6 +3277,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -2858,18 +3297,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2889,6 +3316,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3132,7 +3571,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -3233,7 +3672,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1205462515
 GameObject:
@@ -3291,6 +3730,141 @@ MonoBehaviour:
   originalPos: {x: 0, y: 0, z: 0}
   viewType: 0
   cameraM: {fileID: 0}
+--- !u!1 &1217086402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217086403}
+  - component: {fileID: 1217086405}
+  - component: {fileID: 1217086404}
+  m_Layer: 5
+  m_Name: TextTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1217086403
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217086402}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 509065518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.87500006}
+  m_AnchorMax: {x: 1, y: 0.98800004}
+  m_AnchoredPosition: {x: 0, y: 0.06997681}
+  m_SizeDelta: {x: -14.3004, y: -1.1799927}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1217086404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217086402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Creditos
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: dd0b070fadbd63c459523ba0f3541f3c, type: 2}
+  m_sharedMaterial: {fileID: 6795299328143738384, guid: dd0b070fadbd63c459523ba0f3541f3c, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30.9
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 20
+  m_fontSizeMax: 50
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1217086405
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217086402}
+  m_CullTransparentMesh: 1
 --- !u!1 &1222545330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,10 +3899,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.24355339}
-  m_AnchorMax: {x: 0.92, y: 0.317}
-  m_AnchoredPosition: {x: 0, y: 0.2999878}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.32133132}
+  m_AnchorMax: {x: 0.92, y: 0.3903313}
+  m_AnchoredPosition: {x: 0, y: -0.15001678}
+  m_SizeDelta: {x: 3.220398, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1222545332
 MonoBehaviour:
@@ -3374,6 +3948,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -3382,18 +3968,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 5
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3413,6 +3987,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3492,7 +4078,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 176327369}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.080000006, y: 0.012330079}
   m_AnchorMax: {x: 0.92, y: 0.079106785}
@@ -3545,12 +4131,36 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
+        m_MethodName: ChangeHud
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3725,11 +4335,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2995b34d5f8d8d640af0e2e3ad08465d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showInfo: 0
-  showConf: 0
+  showHud: 0
+  actualHud: 0
+  actualButton: 0
   MngSimulator: {fileID: 568002547}
-  infoHUD: {fileID: 309290605}
-  configHUD: {fileID: 63502901}
+  Huds:
+  - {fileID: 309290605}
+  - {fileID: 63502901}
+  - {fileID: 509065517}
   colorsHud:
   - {r: 0.4745098, g: 0.4862745, b: 1, a: 1}
   - {r: 0.85098046, g: 0.9058824, b: 0.92549026, a: 1}
@@ -3756,8 +4369,241 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1368300131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368300132}
+  - component: {fileID: 1368300135}
+  - component: {fileID: 1368300134}
+  - component: {fileID: 1368300133}
+  m_Layer: 5
+  m_Name: Info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1368300132
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368300131}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 176327369}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.8692219}
+  m_AnchorMax: {x: 0.92, y: 0.93577814}
+  m_AnchoredPosition: {x: -0.0000019073486, y: 0.1000061}
+  m_SizeDelta: {x: 3.220398, y: 3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1368300133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368300131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1368300134}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1368300134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368300131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 08eb72e5ffd741e4e8e77489c6c4867f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1368300135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368300131}
+  m_CullTransparentMesh: 1
+--- !u!1 &1374648847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374648848}
+  - component: {fileID: 1374648850}
+  - component: {fileID: 1374648849}
+  m_Layer: 0
+  m_Name: Utfpr_logo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1374648848
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374648847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 509065518}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0000014305, y: -178.59}
+  m_SizeDelta: {x: 180, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1374648849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374648847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 56a262f209cf55543a7e2bca1f77fb9d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1374648850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374648847}
+  m_CullTransparentMesh: 1
 --- !u!1 &1491014918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,12 +4940,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 176327369}
-  m_RootOrder: 0
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.638}
-  m_AnchorMax: {x: 0.92, y: 0.71143687}
-  m_AnchoredPosition: {x: -0.0000009536743, y: 71.2}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.085778125}
+  m_AnchorMax: {x: 0.92, y: 0.15244377}
+  m_AnchoredPosition: {x: 0, y: 0.3999939}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756709283
 MonoBehaviour:
@@ -4229,10 +5075,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.40166014}
-  m_AnchorMax: {x: 0.92, y: 0.4755534}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.4794438}
+  m_AnchorMax: {x: 0.92, y: 0.54666567}
+  m_AnchoredPosition: {x: 0, y: 0.049995422}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800023298
 MonoBehaviour:
@@ -4278,6 +5124,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -4286,18 +5144,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4317,6 +5163,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4616,10 +5474,10 @@ RectTransform:
   m_Father: {fileID: 176327369}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.080000006, y: 0.3237767}
-  m_AnchorMax: {x: 0.92, y: 0.39733008}
-  m_AnchoredPosition: {x: 0, y: -0.3500061}
-  m_SizeDelta: {x: 3.220398, y: 0}
+  m_AnchorMin: {x: 0.080000006, y: 0.40155318}
+  m_AnchorMax: {x: 0.92, y: 0.46844378}
+  m_AnchoredPosition: {x: 0, y: -0.30001068}
+  m_SizeDelta: {x: 3.220398, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953878231
 MonoBehaviour:
@@ -4665,6 +5523,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ChangeHud
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 568002547}
         m_TargetAssemblyTypeName: SimulatorManager, Assembly-CSharp
         m_MethodName: PressInputPlanet
@@ -4673,18 +5543,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1343397339}
-        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
-        m_MethodName: ToggleHUD
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4704,6 +5562,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1343397339}
         m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
         m_MethodName: ChangeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1343397339}
+        m_TargetAssemblyTypeName: ManagerUI, Assembly-CSharp
+        m_MethodName: ToggleHUD
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50804,19 +51674,18 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: 'The seventh planet from the Sun with the third largest diameter in
-    our solar system, Uranus is very cold and windy. The ice giant is surrounded
-    by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle
-    from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways,
-    orbiting the Sun like a rolling ball.
-
-
-
-    The first planet found with the
-    aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel,
-    although he originally thought it was either a comet or a star. It was two years
-    later that the object was universally accepted as a new planet, in part because
-    of observations by astronomer Johann Elert Bode.'
+  infoPlanet: "Massa: 86,8 x 10^24 Kg\nVolume: 6.833 x 10^10 Km\nGravidade: 8,7 m/s\xB2\nDura\xE7\xE3o
+    do dia: 17,2 h\nDist\xE2ncia do sol: 2.867 x 10^6 Km\nTempo de \xF3rbita: 30.589
+    dias\n\nO s\xE9timo planeta a partir do Sol, com o terceiro maior di\xE2metro
+    em nosso sistema solar, Urano \xE9 muito frio e ventoso. O gigante de gelo \xE9
+    cercado por 13 an\xE9is t\xEAnues e 27 luas pequenas, enquanto gira em um \xE2ngulo
+    quase de 90 graus em rela\xE7\xE3o ao plano de sua \xF3rbita. Essa inclina\xE7\xE3o
+    \xFAnica faz com que Urano pare\xE7a girar de lado, orbitando o Sol como uma
+    bola rolando.\r\n\r\nO primeiro planeta descoberto com a ajuda de um telesc\xF3pio,
+    Urano foi encontrado em 1781 pelo astr\xF4nomo William Herschel, embora inicialmente
+    ele tenha pensado que fosse um cometa ou uma estrela. Foi apenas dois anos depois
+    que o objeto foi universalmente aceito como um novo planeta, em parte devido
+    \xE0s observa\xE7\xF5es do astr\xF4nomo Johann Elert Bode."
 --- !u!135 &2366119673212740869
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -50991,13 +51860,16 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: "Mercury\u2014the smallest planet in our solar system and nearest to
-    the Sun\u2014is only slightly larger than Earth's Moon. Its surface is covered
-    in tens of thousands of impact craters.\n\nDespite its proximity to the Sun,
-    Mercury is not the hottest planet in our solar system\u2014 that title belongs
-    to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet,
-    zipping around the Sun every 88 Earth days. Mercury is appropriately named for
-    the swiftest of the ancient Roman gods."
+  infoPlanet: "Massa: 0,33 x 10^24 Kg\nVolume: 6,08 x 10^10 Km\nGravidade: 3.7 m/s\xB2\nDura\xE7\xE3o
+    do dia: 4222.6 h\nDist\xE2ncia do sol: 57.9 x 10^6 Km\nTempo de \xF3rbita: 88
+    dias\n\nMerc\xFArio \xE9 o menor planeta em nosso sistema solar e o mais pr\xF3ximo
+    do Sol \xE9 apenas ligeiramente maior do que a Lua da Terra. Sua superf\xEDcie
+    est\xE1 coberta por dezenas de milhares de crateras de impacto.\n\nApesar de
+    sua proximidade com o Sol, Merc\xFArio n\xE3o \xE9 o planeta mais quente em nosso
+    sistema solar, esse t\xEDtulo pertence a V\xEAnus, que est\xE1 nas proximidades,
+    gra\xE7as \xE0 sua atmosfera densa. No entanto, Merc\xFArio \xE9 o planeta mais
+    r\xE1pido, circulando em torno do Sol a cada 88 dias terrestres. Merc\xFArio
+    recebeu o nome apropriado do mais veloz dos antigos deuses romanos."
 --- !u!135 &4182879555610038696
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51140,7 +52012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateObject: {fileID: 1741346437436631}
   rotateTo: {x: 0, y: 1, z: 0}
-  rotatonSpeed: -583.25
+  rotatonSpeed: -58.325
 --- !u!114 &4182879555610038700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51172,18 +52044,22 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: "It's a cloud-swaddled planet named for a love goddess, and often called
-    Earth\u2019s twin. But pull up a bit closer, and Venus turns hellish. Our nearest
-    planetary neighbor, the second planet from the Sun, has a surface hot enough
-    to melt lead. The atmosphere is so thick that, from the surface, the Sun is just
-    a smear of light.\n\nIn some ways it is more an opposite of Earth than a twin:
-    Venus spins backward, has a day longer than its year, and lacks any semblance
-    of seasons. It might once have been a habitable ocean world, like Earth, but
-    that was at least a billion years ago. A runaway greenhouse effect turned all
-    surface water into vapor, which then leaked slowly into space. The present-day
-    surface of volcanic rock is blasted by high temperatures and pressures. Asked
-    if the surface of Venus is likely to be life-bearing today, we can give a quick
-    answer: a hard \u201Cno.\u201D"
+  infoPlanet: "Massa: 4,86 x 10^24 Kg\nVolume: 92,84 x 10^10 Km\nGravidade: 8.9 m/s\xB2\nDura\xE7\xE3o
+    do dia: 2802 h\nDist\xE2ncia do sol: 108,2 x 10^6 Km\nTempo de \xF3rbita: 224,7
+    dias\t\n\n\xC9 um planeta envolto por nuvens, nomeado em homenagem a deusa romana
+    do amor, frequentemente chamado de g\xEAmeo da Terra. Mas chegue um pouco mais
+    perto, e V\xEAnus se torna infernal. Nosso vizinho planet\xE1rio mais pr\xF3ximo,
+    o segundo planeta a partir do Sol, tem uma superf\xEDcie quente o suficiente
+    para derreter chumbo. A atmosfera \xE9 t\xE3o densa que, a partir da superf\xEDcie,
+    o Sol \xE9 apenas uma mancha de luz.\r\n\r\nDe algumas maneiras, \xE9 mais um
+    oposto da Terra do que um g\xEAmeo: V\xEAnus gira para tr\xE1s, tem um dia mais
+    longo que seu ano e n\xE3o tem qualquer semelhan\xE7a com esta\xE7\xF5es. Pode
+    ter sido um mundo oce\xE2nico habit\xE1vel, como a Terra, mas isso foi h\xE1
+    pelo menos um bilh\xE3o de anos. Um efeito estufa descontrolado transformou toda
+    a \xE1gua da superf\xEDcie em vapor, que vazou lentamente para o espa\xE7o. A
+    atual superf\xEDcie de rochas vulc\xE2nicas \xE9 atingida por altas temperaturas
+    e press\xF5es. Perguntado se a superf\xEDcie de V\xEAnus \xE9 prov\xE1vel de
+    abrigar vida hoje, podemos dar uma resposta r\xE1pida: um enf\xE1tico \"n\xE3o\"."
 --- !u!135 &4878998460874860445
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51243,17 +52119,17 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: 'While Earth is only the fifth largest planet in the solar system,
-    it is the only world in our solar system with liquid water on the surface. Just
-    slightly larger than nearby Venus, Earth is the biggest of the four planets closest
-    to the Sun, all of which are made of rock and metal.
-
-
-    Earth is the only
-    planet in the Solar System whose English name does not come from Greek or Roman
-    mythology. The name was taken from Old English and Germanic. It simply means
-    "the ground." There are, of course, many names for our planet in the thousands
-    of languages spoken by the people of the third planet from the Sun.'
+  infoPlanet: "Massa: 5,97 x 10^24 Kg\nVolume: 108,321 x 10^10 Km\nGravidade: 9,8
+    m/s\xB2\nDura\xE7\xE3o do dia: 24 h\nDist\xE2ncia do sol: 149,6 x 10^6 Km\nTempo
+    de \xF3rbita: 365,2 dias\n\nEmbora a Terra seja apenas o quinto planeta mais
+    extenso do sistema solar, \xE9 o \xFAnico planeta em nosso sistema solar com
+    \xE1gua l\xEDquida na superf\xEDcie. Apenas ligeiramente maior que a vizinha
+    V\xEAnus, a Terra \xE9 o maior dos quatro planetas mais pr\xF3ximos do Sol, todos
+    feitos de rocha e metal.\r\n\r\nA Terra \xE9 o \xFAnico planeta no Sistema Solar
+    cujo nome em ingl\xEAs n\xE3o vem da mitologia grega ou romana. O nome foi retirado
+    do ingl\xEAs antigo e germ\xE2nico. Significa simplesmente \"o solo\". Existem,
+    \xE9 claro, muitos nomes para nosso planeta nas milhares de l\xEDnguas faladas
+    pelas pessoas do terceiro planeta a partir do Sol."
 --- !u!135 &6180789849184118775
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51428,18 +52304,16 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: 'Dark, cold, and whipped by supersonic winds, ice giant Neptune is
-    the eighth and most distant planet in our solar system. More than 30 times as
-    far from the Sun as Earth, Neptune is the only planet in our solar system not
-    visible to the naked eye. In 2011 Neptune completed its first 165-year orbit
-    since its discovery in 1846.
-
-
-
-    Neptune is so far from the Sun that high
-    noon on the big blue planet would seem like dim twilight to us. The warm light
-    we see here on our home planet is roughly 900 times as bright as sunlight on
-    Neptune.'
+  infoPlanet: "Massa: 102 x 10^24 Kg\nVolume: 6.254 x 10^10 Km\nGravidade: 11 m/s\xB2\nDura\xE7\xE3o
+    do dia: 16,1 h\nDist\xE2ncia do sol: 4.515 x 10^6 Km\nTempo de \xF3rbita: 59.800
+    dias\n\nSombrio, frio e varrido por ventos supers\xF4nicos, o gigante de gelo
+    Netuno \xE9 o oitavo e mais distante planeta em nosso sistema solar. Mais de
+    30 vezes mais longe do Sol do que a Terra, Netuno \xE9 o \xFAnico planeta em
+    nosso sistema solar que n\xE3o \xE9 vis\xEDvel a olho nu. Em 2011, Netuno completou
+    sua primeira \xF3rbita de 165 anos desde sua descoberta em 1846.\r\n\r\nNetuno
+    est\xE1 t\xE3o longe do Sol que o meio-dia no grande planeta azul pareceria um
+    crep\xFAsculo fraco para n\xF3s. A luz quente que vemos aqui em nosso planeta
+    natal \xE9 aproximadamente 900 vezes mais brilhante do que a luz solar em Netuno."
 --- !u!135 &6353123651533255664
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51674,13 +52548,16 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: "Jupiter is the fifth planet from our Sun and is, by far, the largest
-    planet in the solar system \u2013 more than twice as massive as all the other
-    planets combined.\r\n\r\nJupiter's stripes and swirls are actually cold, windy
-    clouds of ammonia and water, floating in an atmosphere of hydrogen and helium.
-    Jupiter\u2019s iconic Great Red Spot is a giant storm bigger than Earth that
-    has raged for hundreds of years.\r\n\r\nJupiter is named for the king of the
-    ancient Roman gods.\u200B"
+  infoPlanet: "Massa: 1898 x 10^24 Kg\nVolume: 143.128 x 10^10 Km\nGravidade: 23,1
+    m/s\xB2\nDura\xE7\xE3o do dia: 9,9 h\nDist\xE2ncia do sol: 778.5 x 10^6 Km\nTempo
+    de \xF3rbita: 4331 dias\n\nJ\xFApiter \xE9 o quinto planeta a partir do nosso
+    Sol e, de longe, \xE9 o maior planeta do sistema solar - mais de duas vezes mais
+    massivo do que todos os outros planetas combinados.\r\n\r\nAs listras e redemoinhos
+    de J\xFApiter s\xE3o, na verdade, nuvens frias e ventosas de am\xF4nia e \xE1gua,
+    flutuando em uma atmosfera de hidrog\xEAnio e h\xE9lio. O ic\xF4nico Grande Ponto
+    Vermelho de J\xFApiter \xE9 uma tempestade gigante maior que a Terra que tem
+    rugido por centenas de anos.\r\n\r\nJ\xFApiter recebeu seu nome em homenagem
+    ao rei dos antigos deuses romanos."
 --- !u!135 &6789804957346072517
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51855,23 +52732,18 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: 'Mars is one of the most explored bodies in our solar system, and it''s
-    the only planet where we''ve sent rovers to roam the alien landscape. NASA missions
-    have found lots of evidence that Mars was much wetter and warmer, with a thicker
-    atmosphere, billions of years ago.
-
-
-    Mars was named by the Romans for their
-    god of war because its reddish color was reminiscent of blood. The Egyptians
-    called it "Her Desher," meaning "the red one."
-
-
-
-    Even today, it is frequently
-    called the "Red Planet" because iron minerals in the Martian dirt oxidize, or
-    rust, causing the surface to look red.
-
-'
+  infoPlanet: "Massa: 0,64 x 10^24 Kg\nVolume: 16,31 x 10^10 Km\nGravidade: 23,1
+    m/s\xB2\nDura\xE7\xE3o do dia: 9,9 h\nDist\xE2ncia do sol: 778,5 x 10^6 Km\nTempo
+    de \xF3rbita: 4331 dias\n\nMarte \xE9 um dos corpos mais explorados em nosso
+    sistema solar e \xE9 o \xFAnico planeta para o qual enviamos rovers para percorrer
+    a paisagem alien\xEDgena. As miss\xF5es da NASA encontraram muitas evid\xEAncias
+    de que Marte era muito mais \xFAmido e mais quente, com uma atmosfera mais espessa,
+    bilh\xF5es de anos atr\xE1s.\r\n\r\nMarte foi nomeado pelos romanos em homenagem
+    ao seu deus da guerra, porque sua cor avermelhada lembrava sangue. Os eg\xEDpcios
+    o chamavam de \"Her Desher\", que significa \"o vermelho\".\r\n\r\nMesmo hoje,
+    \xE9 frequentemente chamado de \"Planeta Vermelho\" porque os minerais de ferro
+    na poeira marciana oxidam, ou enferrujam, fazendo com que a superf\xEDcie pare\xE7a
+    vermelha.\r"
 --- !u!135 &7568472841889299592
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52046,19 +52918,14 @@ MonoBehaviour:
   originalAxisToRotate: 0
   originalDrawTime: 0
   originalDrawTimeDestroy: 0
-  infoPlanet: 'Saturn is the sixth planet from the Sun and the second largest planet
-    in our solar system. Adorned with a dazzling system of icy rings, Saturn is unique
-    among the planets.
-
-
-
-    It is not the only planet to have rings, but none are
-    as spectacular or as complex as Saturn''s. Like fellow gas giant Jupiter, Saturn
-    is a massive ball made mostly of hydrogen and helium.
-
-
-
-    The farthest planet
-    from Earth discovered by the unaided human eye, Saturn has been known since ancient
-    times. The planet is named for the Roman god of agriculture and wealth, who was
-    also the father of Jupiter.'
+  infoPlanet: "Massa: 568 x 10^24 Kg\nVolume: 82.713 x 10^10 Km\nGravidade: 9 m/s\xB2\nDura\xE7\xE3o
+    do dia: 10,7 h\nDist\xE2ncia do sol: 1432 x 10^6 Km\nTempo de \xF3rbita: 10.747
+    dias\n\nSaturno \xE9 o sexto planeta a partir do Sol e o segundo maior planeta
+    em nosso sistema solar. Adornado com um deslumbrante sistema de an\xE9is gelados,
+    Saturno \xE9 \xFAnico entre os planetas.\r\n\r\nN\xE3o \xE9 o \xFAnico planeta
+    a ter an\xE9is, mas nenhum \xE9 t\xE3o espetacular ou complexo quanto os de Saturno.
+    Assim como o gigante gasoso J\xFApiter, Saturno \xE9 uma esfera massiva composta
+    principalmente de hidrog\xEAnio e h\xE9lio.\r\n\r\nO planeta mais distante da
+    Terra descoberto a olho nu, Saturno \xE9 conhecido desde os tempos antigos. O
+    planeta recebe o nome do deus romano da agricultura e da riqueza, que tamb\xE9m
+    era o pai de J\xFApiter."
