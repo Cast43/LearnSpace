@@ -1,5 +1,5 @@
 # LearnSpace
 O LearnSpace é um software educativo que oferece uma jornada pelo sistema solar.
-Este projeto apresenta uma visualização tridimensional dos planetas do sistema solar e suas órbitas elípticas
+Este projeto apresenta uma visualização tridimensional dos planetas do sistema solar e suas órbitas elípticas.
 É possível baixar o executável deste software pelo link no Google Drive:
 https://drive.google.com/file/d/1vWNxyCr-3CK8x0CjFp1QBS_aWcLKIEqi/view?usp=drive_link
