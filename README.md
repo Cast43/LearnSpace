@@ -2,6 +2,7 @@
 O LearnSpace é um software educativo que oferece uma jornada por um modelo sistema solar.
 Este projeto apresenta uma visualização tridimensional dos planetas do sistema solar e suas órbitas elípticas.
 Também há uma breve descrição de cada planeta com algumas curiosidades. 
+
 </n>
 Na utilização de software as teclas "W, A, S, D" são usadas para a movimentação da câmera livre pelo espaço.
 O MB3 do mouse (botão do meio) no modo de vizualização do sistema solar ela da zoom ou afasta a câmera
