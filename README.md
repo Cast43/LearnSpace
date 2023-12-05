@@ -5,6 +5,7 @@ Também há uma breve descrição de cada planeta com algumas curiosidades.
 </n>
 Na utilização de software as teclas "W, A, S, D" são usadas para a movimentação da câmera livre pelo espaço.
 O MB3 do mouse (botão do meio) no modo de vizualização do sistema solar ela da zoom ou afasta a câmera
+</n>
 
 ![image](https://github.com/Cast43/LearnSpace/assets/101857288/7e02ae3d-cb14-4638-8880-538c3c565b08)
 
