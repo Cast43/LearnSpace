@@ -5951,7 +5951,7 @@ GameObject:
   - component: {fileID: 1075034881924854704}
   - component: {fileID: 1075034881924854703}
   m_Layer: 0
-  m_Name: Uranus
+  m_Name: Urano
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6081,7 +6081,7 @@ GameObject:
   - component: {fileID: 6789804957346072520}
   - component: {fileID: 6789804957346072519}
   m_Layer: 0
-  m_Name: Mars
+  m_Name: Marte
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6193,7 +6193,7 @@ GameObject:
   - component: {fileID: 7568472841889299595}
   - component: {fileID: 7568472841889299594}
   m_Layer: 0
-  m_Name: Saturn
+  m_Name: Saturno
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6362,7 +6362,7 @@ GameObject:
   - component: {fileID: 6518462327446523233}
   - component: {fileID: 6518462327446523232}
   m_Layer: 0
-  m_Name: Jupiter
+  m_Name: Jupter
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6384,7 +6384,7 @@ GameObject:
   - component: {fileID: 6180789849184118778}
   - component: {fileID: 6180789849184118777}
   m_Layer: 0
-  m_Name: Neptune
+  m_Name: Netuno
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6482,7 +6482,7 @@ GameObject:
   - component: {fileID: 4878998460874860446}
   - component: {fileID: 380941066}
   m_Layer: 0
-  m_Name: Earth
+  m_Name: Terra
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6576,7 +6576,7 @@ GameObject:
   - component: {fileID: 2366119673212740870}
   - component: {fileID: 2366119673212740871}
   m_Layer: 0
-  m_Name: Mercury
+  m_Name: "Merc\xFArio"
   m_TagString: TrackingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
