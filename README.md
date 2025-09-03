@@ -1,17 +1,47 @@
 # LearnSpace
-O LearnSpace é um software educativo que oferece uma jornada por um modelo sistema solar.
-Este projeto apresenta uma visualização tridimensional dos planetas do sistema solar e suas órbitas elípticas.
-Também há uma breve descrição de cada planeta com algumas curiosidades. 
-<br>
-Na utilização de software as teclas "W, A, S, D" são usadas para a movimentação da câmera livre pelo espaço.
-<br>
-O MB3 do mouse (botão do meio) no modo de vizualização do sistema solar ela da zoom ou afasta a câmera
 
+**LearnSpace** is an educational 3D visualization of our solar system, developed in **Unity**.
 
 ![image](https://github.com/Cast43/LearnSpace/assets/101857288/7e02ae3d-cb14-4638-8880-538c3c565b08)
 
+---
+
+##  Overview
+
+Explore a dynamic model of the solar system, where planets orbit realistically and you can control the camera for an interactive learning experience.
+
 ![image](https://github.com/Cast43/LearnSpace/assets/101857288/26c7ecea-2e17-4048-89ad-381ab0c9eb42)
 
+---
 
-É possível baixar o executável deste software pelo link no Google Drive:
+##  Features
+
+- 3D solar system model with planetary orbits  
+- Informative descriptions and fun facts for each planet  
+- Free camera navigation using:
+  - **W, A, S, D** for movement  
+  - **Middle mouse button (MB3)** for zooming in and out  
+- Easy-to-use, immersive exploration  
+- Standalone executable available via external download
+
+---
+
+##  Technologies Used
+
+- **Unity** (project structured into Assets, Packages, ProjectSettings)  
+- Languages: **C#** 
+- Licensed under **MIT License**
+
+---
+
+##  Getting Started
+
+### Option 1: Run in Unity  
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Cast43/LearnSpace.git
+
+## Download The App
+
+Download the aplication in the Google Drive link:
 https://drive.google.com/file/d/1oaa1EzAfqCIOKcJrskYpWFwKv0B07aI5/view?usp=sharing
